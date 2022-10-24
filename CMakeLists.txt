@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.24)
+project(SSL)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_C_STANDARD 17)
+add_library(SSL_lib SHARED string.c)
+target_include_directories(SSL_lib PRIVATE ./include)

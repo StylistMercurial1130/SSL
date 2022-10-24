@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/Repos/SSL/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/SSL.dir/includes_C.rsp  -o CMakeFiles\\SSL.dir\\string.c.obj -c D:\\Repos\\SSL\\string.c",
+  "file": "D:/Repos/SSL/string.c"
+},
+{
+  "directory": "D:/Repos/SSL/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe  @CMakeFiles/SSL.dir/includes_C.rsp  -o CMakeFiles\\SSL.dir\\main.c.obj -c D:\\Repos\\SSL\\main.c",
+  "file": "D:/Repos/SSL/main.c"
+},
+{
+  "directory": "D:/Repos/SSL/build",
+  "command": "D:\\C_C++\\MinGW\\mingw64\\bin\\gcc.exe -DSSL_lib_EXPORTS @CMakeFiles/SSL_lib.dir/includes_C.rsp  -o CMakeFiles\\SSL_lib.dir\\string.c.obj -c D:\\Repos\\SSL\\string.c",
+  "file": "D:/Repos/SSL/string.c"
+}
+]
