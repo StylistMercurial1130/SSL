@@ -75,3 +75,12 @@ void Get_Sub_String(struct STRING **string,unsigned int start,unsigned int end,
 		buffer[_index] = __EOF_CHAR__;
 	}
 }
+
+void Replace_Sub_String(struct STRING **string,unsigned int start, 
+	unsigned int end,const unsigned int size,char buffer[size]) {
+	if(end - start== size && end <= (*string)->pos) {	
+		for(unsigned int index = 0;index < size;index++) {
+			(*string)->buffer[start++] = buffer[index];	
+		}		
+	}
+}
